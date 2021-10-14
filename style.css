@@ -35,7 +35,9 @@ strong {
 }
 
 .kgray {
-	background-color: #CCC5B9;
+	background-color: rgba(204, 197, 185, 0.1);
+	border-radius: 25px;
+
 }
 
 .kdgray {
@@ -50,26 +52,37 @@ strong {
 	background-color: #EB5E28;
 }
 
+/*My palette END*/
+
+span {
+	border-bottom: 1px solid #EB5E28;
+}
+
+/*hr {
+	border: 3px dashed rgba(235, 94, 40, 0.3) !important;
+}*/
 
 
-
+/*anchor override*/
 a {
 	color: inherit !important;
 	text-decoration: none;
 }
 
+/*btn dark override */
 .btn-dark {
 	background-color: #EB5E28;
 	color: #FFFCF2 !important;
 }
 
+/*hover pseudoselector for anchor*/
 a:hover {
 	border-bottom: 2px solid #EB5E28;
 	
 }
 
 
-
+/*gradient overlay option*/
 /*#bg  {
 	background: 
 	linear-gradient(90deg, rgba(235,94,40,1) 0%, rgba(235,94,40,0) 100%)
@@ -78,7 +91,8 @@ a:hover {
 	background-attachment: fixed;
 }*/
 
-/*jumbotron overwrite for BG*/
+
+/*jumbotron override for BG*/
 .jumbotron{
     background: url("./img/jumbobg.jpg") no-repeat center center; 
     background-size: cover;
