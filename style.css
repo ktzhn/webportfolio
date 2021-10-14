@@ -11,6 +11,8 @@
 h1, h2, h3 {
 	font-family:'Castoro', serif; 
 	border-bottom: 4px solid #EB5E28;
+	/*text-shadow: 2px 2px 5px rgba(235, 94, 40, 0.3);*/
+	/*text-shadow: -1px 0 #FFFCF2, 0 2px #FFFCF2, 2px 0 #FFFCF2, 0 -1px #FFFCF2;*/
 }
 
 strong {
