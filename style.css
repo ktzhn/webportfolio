@@ -50,8 +50,21 @@ strong {
 	background-color: #EB5E28;
 }
 
+
+
+
+a {
+	color: inherit !important;
+	text-decoration: none;
+}
+
+.btn-dark {
+	background-color: #EB5E28;
+	color: #FFFCF2 !important;
+}
+
 a:hover {
-	border-bottom: 2px dashed #EB5E28;
+	border-bottom: 2px solid #EB5E28;
 	
 }
 
